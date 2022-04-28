@@ -33,3 +33,38 @@
     padding-top: 150px;;
     padding-bottom: 150px;
 }
+
+/* Barra de navegação */
+header, .navbar {
+    background-color: #83BD75;;
+  }
+  
+  #nav-container {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  
+  #logo {
+    width: 75px;
+  }
+  
+  .navbar-brand {
+    padding: 0;
+    color: #FFF;
+  }
+  
+  .navbar-brand:hover {
+    color: #FFF;
+  }
+  
+  #navbar-links a {
+    color: #FFF;
+  }
+  
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding: 1rem .8rem;
+  }
+  
+  .nav-item.active {
+    border-bottom: 3px solid #FFF;
+  }

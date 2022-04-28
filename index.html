@@ -14,17 +14,38 @@
     <title>Por um planeta melhor!</title>
   </head>
   <body>
+    <header>
+      <div class="container" id="nav-container">
+        <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
+          <a class="navbar-brand" href="index.html">
+            <img id="logo" src="" alt="logo"> NomeAqui
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-links" aria-controls="navbar-links" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbar-links">
+            <div class="navbar-nav">
+              <a class="nav-item nav-link" id="home-menu" href="#">Home</span></a>
+              <a class="nav-item nav-link" id="about-menu" href="#">Instituição</a>
+              <a class="nav-item nav-link" id="services-menu" href="#">Software</a>
+              <a class="nav-item nav-link" id="team-menu" href="#">Preços</a>
+              <a class="nav-item nav-link" id="portfolio-menu" href="#">Recursos</a>
+              <a class="nav-item nav-link" id="contact-menu" href="#">Parceiros</a>
+              <a class="nav-item nav-link" id="login" href="#">Login</a>
+
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+  <main>
     <section class="header-site">
       <div class="container">
         <div class="row">
             <div class="col">
-                <h1 class="text-center">Por um planeta melhor!</h1>
+                <h1 class="text-xl-right">Por um planeta melhor!</h1>
                   
-                  <p class="lead text-center">
-                    It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
-                    The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using '
-                  </p>
-                   <p class="text-center">
+                    <p class="text-center">
                     <a href="" class="btn btn-success">Sing In </a>
                    </p>
                    <p class="text-center">
@@ -33,8 +54,7 @@
             </div>
             
             <div class="col">
-              <h1 class="text-center">Por um planeta melhor!</h1>
-                
+                             
                 <p class="lead text-center">
                   It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
                   The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using '
@@ -112,7 +132,8 @@
       </div>
     </div>
     </section>
-   
+  </main>
+
     <section class="footer">
       <div class="container">
         <div class="row">
@@ -120,15 +141,55 @@
             <P>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tristique magna at velit accumsan pharetra. Nunc place
             </P>
+
+            <div id="contact-area">
+              <div class="container">
+                  <div class="row">
+                    <div class="col-md-12">
+                      <h3 class="main-title">Entre em contato conosco</h3>
+                    </div>
+                    <div class="col-md-4 contact-box">
+                      <i class="fas fa-phone"></i>
+                      <p><span class="contact-tile">Ligue para:</span> (48)99999-9999</p>
+                      <p><span class="contact-tile">Horários:</span> 8:00 - 19:00</p>
+                    </div>
+                    <div class="col-md-4 contact-box">
+                      <i class="fas fa-envelope"></i>
+                      <p><span class="contact-tile">Envie um email:</span> contato@nomeaqui.com.br</p>
+                    </div>
+                    <div class="col-md-4 contact-box">
+                      <i class="fas fa-map-marker-alt"></i>
+                      <p><span class="contact-tile">Venha tomar um café:</span> Rua Lorem Ipsum - 1314</p>
+                    </div>
+                    <div class="col-md-6" id="msg-box">
+                      <p>Ou nos deixe uma mensagem:</p>
+                    </div>
+                    <div class="col-md-6" id="contact-form">
+                      <form action="">
+                        <input type="text" class="form-control" placeholder="E-mail" name="email">
+                        <input type="text" class="form-control" placeholder="Assunto" name="subject">
+                        <textarea class="form-control" rows="3" placeholder="Sua mensagem..." name="message"></textarea>
+                        <input type="submit" class="main-btn">
+                      </form>
+                    </div>
+                  </div>
+              </div>
+            </div>
+            <div id="copy-area">
+              <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                      <p>Desenvolvido para fins estudantis</a> &copy; 2022</p>
+                    </div>
+                </div>
+              </div>
+            </div>
           </div>
 
         </div>
 
       </div>
 
-    </section>
-    
-
-    
+    </section>   
   </body>
 </html>
