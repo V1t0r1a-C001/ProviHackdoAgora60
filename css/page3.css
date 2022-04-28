@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #ecf0f3;
+  }
+
+.cabeçalho{
+    background-image: url( https://digitro.com/wp-content/themes/digitro/lib/img/back/comprometimento_mundo_melhor.jpg) ;
+}
+
+.header{
+    border:1px solid #aaa ;
+}
+
+.container{
+    margin-top: 30px;
+    margin-bottom: 40px; 
+}
+
+.title{
+    margin-top: 70px;
+    text-align: center;
+}
+
+.topicos{
+    display: flex;
+    justify-content: space-around;
+}
+
+.temas{
+    color: black;
+}
+
+.itens {
+    max-width: 30%;
+}
+
+.itens :hover{
+    max-width: 40%;
+    transition: 0.5s;
+}
+
+.itens img{
+    max-width: 30%;
+}
+
+
