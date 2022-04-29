@@ -1,0 +1,13 @@
+
+
+ul{
+    display: flex;
+    justify-content:flex-start;
+}
+
+.pontos{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap-reverse;
+    align-items: flex-start;
+}
