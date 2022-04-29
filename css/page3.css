@@ -2,12 +2,8 @@
 
 body {
     font-family: "Poppins", sans-serif;
-    background-color: #ecf0f3;
   }
 
-.cabeçalho{
-    background-image: url( https://digitro.com/wp-content/themes/digitro/lib/img/back/comprometimento_mundo_melhor.jpg) ;
-}
 
 .header{
     border:1px solid #aaa ;
@@ -23,6 +19,10 @@ body {
     text-align: center;
 }
 
+.pergunta{
+    margin-inline-start: 40px;
+}
+
 .topicos{
     display: flex;
     justify-content: space-around;
@@ -34,6 +34,10 @@ body {
 
 .itens {
     max-width: 30%;
+}
+
+.itens a{
+    text-decoration: none;
 }
 
 .itens :hover{
