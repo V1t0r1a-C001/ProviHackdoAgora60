@@ -22,6 +22,29 @@
     <title>Por um planeta melhor!</title>
   </head>
   <body>
+          <!--Navbar-->
+         <!-- <nav id="navbar-example2" class="navbar navbar-light sticky-top">
+            <a class="navbar-brand" href="#">
+              <img id="logo" src="biowe" alt="logo"> BioWe
+            </a>
+            <ul class="nav nav-pills" role="button">
+              <li class="nav-item.active">
+                <a class="nav-link" href="#instituição" >Instituição</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#valores" >Valores</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#recursos">Recursos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#faleconosco">Fale Conosco</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#login">Login</a>
+              </li> 
+            </ul>
+          </nav>-->
     <header>
       <div class="container" id="nav-container">
         <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
@@ -33,13 +56,11 @@
           </button>
           <div class="collapse navbar-collapse justify-content-end" id="navbar-links">
             <div class="navbar-nav">
-              <!--a class="nav-item nav-link" id="home-menu" href="#">Home</span></a-->
-              <a class="nav-item nav-link" id="about-instituição" href="#">Instituição</a>
-              <a class="nav-item nav-link" id="services-menu" href="#">Valores</a>
-              <!--a class="nav-item nav-link" id="team-menu" href="#">Preços</a-->
-              <a class="nav-item nav-link" id="portfolio-menu" href="#">Recursos</a>
-              <a class="nav-item nav-link" id="contact-menu" href="#">Fale conosco</a>
-              <a class="nav-item nav-link" id="login" href="#">Login</a>
+              <a class="nav-item nav-link"  href="#instituição">Instituição</a>
+              <a class="nav-item nav-link"  href="#valores">Valores</a>
+              <a class="nav-item nav-link"  href="#recursos">Recursos</a>
+              <a class="nav-item nav-link"  href="#faleconosco">Fale conosco</a>
+              <a class="nav-item nav-link"  href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">Login</a>
 
             </div>
           </div>
@@ -103,21 +124,20 @@
     
             <!-- Login Form -->
             <form>
-              <input type="email" id="email" class="fadeIn second zero-raduis" name="email" placeholder="E-mail">
-              <input type="text" id="password" class="fadeIn third zero-raduis" name="login" placeholder="Senha">
+              <input type="email" id="email" class="fadeIn second zero-raduis" name="email" placeholder="E-mail" required>
+              <input type="password" id="password" class="fadeIn third zero-raduis" name="login" placeholder="Senha" required>
               <div id="formFooter1">
                 <a class="underlineHover" href="#">Esqueceu a senha?</a>
               </div>
-              <input type="button" class="btn btn-info" value="Login">
+              <button class="btn btn-info" id="cadastro">Login</button>
               <h2>Ainda não tem cadastro?</h2>
-              <input type="button" class="fadeIn fourth zero-raduis pc " value="Registre-se" href="./pages/page2cadastro.html">
+              <input type="button" class="fadeIn fourth zero-raduis pc "  data-bs-dismiss="modal" value="Registre-se" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+            
             </form>
             
     
           </div>
-      </div>
-         <!--Modal 2-->
-         
+      </div>  
       </div>
       </div>
       </div>
@@ -125,11 +145,66 @@
       </div>
         </div>
       </div>
+<!--Modal 2--> 
+      <div class="container">
+        <div class="row">
+          <div class="d-flex justify-content-center">
+<div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel2" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+          
+        
+         <!--AteAqui-->
+         <div class="wrapper fadeInDown zero-raduis">
+          <div id="formContent">
+            <!-- Tabs Titles -->
+    
+            <!-- Icon -->
+            <div class="fadeIn first">
+              
+              <h2 class="my-5">Dados do usúario</h2>
+            </div>
+    
+            <!-- Login Form -->
+            <form>
+              <input type="text" id="nome" class="fadeIn second zero-raduis" placeholder="Nome*" required>
+              <input type="text" id="sobrenome" class="fadeIn third zero-raduis" placeholder="Sobrenome*" required>
+              <input type="date" id="data" class="fadeIn second zero-raduis" placeholder="Data de Nascimento" required>
+              <input type="email" id="email" class="fadeIn second zero-raduis" placeholder="E-mail*" required>
+              <input type="password" id="password" class="fadeIn third zero-raduis" placeholder="Senha*" required>
+              <input type="password" id="password" class="fadeIn third zero-raduis" placeholder="Confirme sua Senha*" required>
+              <div class="fadeIn first">
+                <h2 class="my-5">Dados da empresa</h2>
+              </div>
+              <input type="text" id="empresa" class="fadeIn second zero-raduis" placeholder="Nome da empresa*" required>
+              <input type="text" id="segmento" class="fadeIn second zero-raduis" placeholder="Segmento*" required>
+              <input type="text" id="local" class="fadeIn second zero-raduis" placeholder="Local*" required>
+              <input type="text" id="funcionarios" class="fadeIn second zero-raduis" placeholder="Números de funcionarios*" required>
+              <button class="btn btn-info" id="cadastro">Cadastrar</button>
+            </form>
+            
+    
+          </div>
+      </div>  
+      </div>
+      </div>
+      </div>
+      </div>
+      </div>
+        </div>
+      </div>
+<!--Fim Modal 2--> 
+
         </div>
       </div>
     </section>
    
-    <section class="content-site">
+    <section class="content-site" id="instituição">
       <div class="navbar-nav">
         <a href="nav-item nav-link" id="about-instituição"></a>
         </div>
@@ -157,7 +232,7 @@
                   <li><i class="fas fa-check"></i> Layout responsivo para todos os dispositivos</li>
                   <li><i class="fas fa-check"></i> Integração com diversos sistemas do mercado</li>
                   <li><i class="fas fa-check"></i> Sistema de pagamento próprio</li>
-                  <li><i class="fas fa-check"></i> Desenvolvimento com metodologia ágil</li>
+                  <li><i class="fas fa-check" id="valores"></i> Desenvolvimento com metodologia ágil</li>
                 </ul>
               </div>
             </div>
@@ -234,7 +309,7 @@
         <hr>
       </section>
 
-    <section class="img-site">
+    <section class="img-site" id="recursos">
       <div class="container">
         <div class="row">
           <div class="col-xs-12">
@@ -277,7 +352,7 @@
                       </svg></span> Rua Erva Doce - 1414</p>
                     </div>
                     <hr>                      
-                      <form class="form-container1">
+                      <form class="form-container1" id="faleconosco">
                          <div class="form-group">
                           <input type="text" class="form-control" placeholder="E-mail" name="email">
                         </div>
@@ -296,7 +371,7 @@
                       </form>
                     </div>
                         
-                      </form>
+                      
                     </div>
                   </div>
               

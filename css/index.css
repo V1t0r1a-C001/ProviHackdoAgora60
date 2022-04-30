@@ -108,6 +108,7 @@ header, .navbar {
     border-radius: 10px;
     padding: 30px;
     box-shadow: 10px 0px 10px 0px;
+    text-align: center;
   }
   .bg{
   
@@ -202,7 +203,7 @@ h2.active {
 
 /* FORM TYPOGRAPHY*/
 
-input[type=button], input[type=submit], input[type=reset]  {
+input[type=button], input[type=submit], input[type=reset], #cadastro {
   background-color: goldenrod;
   border: none;
   color: white;
@@ -224,11 +225,11 @@ input[type=button], input[type=submit], input[type=reset]  {
   transition: all 0.3s ease-in-out;
 }
 
-input[type=button]:hover, input[type=submit]:hover, input[type=reset]:hover  {
+input[type=button]:hover, input[type=submit]:hover, input[type=reset]:hover, #cadastro:hover  {
   background-color: greenyellow;
 }
 
-input[type=button]:active, input[type=submit]:active, input[type=reset]:active  {
+input[type=button]:active, input[type=submit]:active, input[type=reset]:active ,#cadastro:active {
   -moz-transform: scale(0.95);
   -webkit-transform: scale(0.95);
   -o-transform: scale(0.95);
@@ -236,7 +237,7 @@ input[type=button]:active, input[type=submit]:active, input[type=reset]:active  
   transform: scale(0.95);
 }
 
-input[type=text], input[type=email] {
+input[type=text], input[type=email], input[type=password], input[type=date]{
   background-color: #f6f6f6;
   border: none;
   color: #0d0d0d;
@@ -379,3 +380,8 @@ input[type=text]:placeholder, input[type=email]:placeholder {
 #icon {
   width:30%;
 }
+
+/*tira barra de Rolagem*/
+::-webkit-scrollbar {
+  display: none;
+  }
