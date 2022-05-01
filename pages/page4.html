@@ -2,64 +2,117 @@
 <html lang="pt-BR">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="../css/page4.css">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-        crossorigin="anonymous"></script>
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-    <script src="https://kit.fontawesome.com/27bbe7ef1e.js" crossorigin="anonymous"></script>
 
-    <title>Document</title>
+  <link rel="stylesheet" href="../css/page4.css">
+
+  <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+
+  <script src="../js/page4.js" defer></script>
+
+
+
+
+  <title>Document</title>
 </head>
 
 <body>
-    <div class="container border mt-4">
-        <h1>Tópico 1</h1>
+
+  <div class="header">
+    <div class="logo">
+      <i class='bx bx-leaf'></i>
+      <div class="logo_name">BioWe</div>
+    </div>
+    <div class="login">
+      <div class="nome"><img class="avatar"
+          src="https://s3-alpha-sig.figma.com/img/f7eb/5338/5b5905c2915ba0401bad433829cf7334?Expires=1652054400&Signature=bnBTDMLikjTBDgPilfU3ndNlfxWSPdVU86o~bOTW1rfehD8We4aFm09Fc1ar6bPLqbCfEVen690CSjkIdG4d3t6J9ZkvbFOtByhPRhgyxwEnsTB46QoVFb~uI1pRuly0xMTUTi4gATAGxF5d56JXQX8chW75ghdelfmB2kOCso0jUMaLr3Vm6ljA4-VxAyrO55Y2qYg5y~u2np5-uC15s6ucVEETa2CUzYeIAZrW3zlubnBTVeZWTYze9kP6eCmTq7qj0KnHvDMG0MkqDtKDV08LX7NLvLUpegbqMQrkTYBX4kvEvPm5NXkCZQ4l10wuCjrIyNWviu1PVQ9c8nibtQ__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA">Olá,
+        Roberto</div>
+    </div>
+  </div>
+
+  <div class="page">
+    <div class="sidebar" id="menu">
+
+      <ul class="nav_list">
+        <li>
+          <a id="menu1" href="#dadosDoPerfil">
+            <i class='bx bxs-user'></i>
+            <span class="links_name">Perfil Pessoal</span>
+          </a>
+        </li>
+      </ul>
+      <ul class="nav_list">
+        <li>
+          <a id="menu2" href="#perfilEmpresa">
+            <i class='bx bxs-store'></i>
+            <span class="links_name">Perfil da Empresa</span>
+          </a>
+        </li>
+      </ul>
+      <ul class="nav_list">
+        <li>
+          <a id="menu3" href="#histRelatorio">
+            <i class='bx bx-reset'></i>
+            <span class="links_name">Histórico de relatórios</span>
+          </a>
+        </li>
+      </ul>
+      <ul class="nav_list">
+        <li>
+          <a id="menu4" href="#menu4">
+            <i class='bx bxs-spreadsheet'></i>
+            <span class="links_name">Gerar novo relatório</span>
+          </a>
+        </li>
+      </ul>
+      <ul class="nav_list">
+        <li>
+          <a id="menu5" href="#agendar">
+            <i class='bx bxs-calendar-check'></i>
+            <span class="links_name">Agendar Consultar</span>
+          </a>
+        </li>
+      </ul>
     </div>
 
-    <div>
-        <ul>Ponto 01</ul>
+    <div id="dadosDoPerfil" class="relatorio">
+      <h1 class="title">Dados do perfil</h1>
+      <p>Bem vindo ao BioWe!</p><br>
+      <p>Você está à alguns passos de identificar os pontos fortes e fracos da sua empresa, só precisamos de alguns
+        dados cadastrar antes e você estará pronto para continuar!</p>
+    </div>
 
-        <div class="pontos">
-            <input type="checkbox">
-        </div>
+    <div id="perfilEmpresa" class="relatorio">
+      <h1 class="title">Perfil da empresa</h1>
+      <p>Veja como sua empresa esta</p>
+    </div>
 
-        <ul>Ponto 02</ul>
+    <div id="newrelatorio" class="relatorio">
+      <h1 class="title">Novo relatório</h1>
+      <p>Estes são seus primeiros passos para uma empresa mais verde!</p><br>
+      <p>Por favor, seleciose a área que você deseja avaliar.</p>
+      <div class="caixa2">
+        <h3>Estratégia</h3>
+      </div>
+      <div>
+        <h3>Planejamento</h3>
+      </div>
+    </div>
 
-        <div class="pontos">
-            <input type="checkbox">
-        </div>
-
-        <ul>Ponto 03</ul>
-
-        <div class="pontos">
-            <input type="checkbox">
-        </div>
-
-        <ul>Ponto 04</ul>
-        <div class="pontos">
-            <input type="checkbox">
-        </div>
-
-        <ul>Ponto 05</ul>
-
-        <div class="pontos">
-            <input type="checkbox">
-        </div>
-
-        <ul>Ponto 06</ul>
-
-        <div class="pontos">
-            <input type="checkbox">
-        </div>
+    <div id="histRelatorio" class="relatorio">
+      <h1 class="title">Histórico de Relatórios</h1>
+      <p>Aqui está os últimos relatórios</p>
 
     </div>
+
+    <div id="agendar" class="relatorio">
+      <h1 class="title">Agendar Consulta</h1>
+      <p>Escolha data e horário, por gentileza.</p>
+    </div>
+  </div>
 
 </body>
 

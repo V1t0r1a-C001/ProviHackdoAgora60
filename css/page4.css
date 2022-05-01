@@ -1,4 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
 
+.header{
+    display:flex;
+    justify-content:space-between;
+    height: 62px;
+    background:#F3F9F4 ;
+}
+
+.nome{
+    padding-top: 0.8%;
+}
+
+.nav_list{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.avatar {
+    width: 30px;
+    height: 30px;
+    background-size: cover;
+    background-position: top center;
+    border-radius: 50%;
+}
+
+.sidebar{
+    width: 344px;
+    height: 1444px;
+    background:#F3F9F4 ;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #FBFBFB;
+  }
 
 ul{
     display: flex;
@@ -10,4 +48,40 @@ ul{
     flex-direction: column;
     flex-wrap: wrap-reverse;
     align-items: flex-start;
+    margin-right: 100px;
 }
+
+button{
+   margin-right: 60px;
+}
+
+.toggler{
+    display: flex;
+    justify-content: end;
+}
+
+.links{
+    text-decoration: none;
+}
+
+
+
+.page{
+    display: flex;
+}
+
+.relatorio{
+    padding: 30px;
+    display: none;
+    flex-direction: column;
+}
+
+.title{
+    color: #366636;
+}
+
+.caixa2{
+    display: flex;
+    justify-content: space-between;
+}
+
