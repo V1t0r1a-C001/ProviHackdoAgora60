@@ -96,4 +96,6 @@ button{
     border-radius: 5px;
     margin-left: 4%;
     width: 60%;
+    padding: 8px 0;
+    cursor: pointer;
 }
