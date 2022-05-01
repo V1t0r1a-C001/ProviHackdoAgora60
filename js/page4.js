@@ -1,29 +1,29 @@
-var menu1 = document.querySelector('#menu1')
-var dadosDoPerfil = document.querySelector('#dadosDoPerfil')
+const menu1 = document.querySelector('#menu1')
+const dadosDoPerfil = document.querySelector('#dadosDoPerfil')
 
-var menu2 = document.querySelector('#menu2')
-var perfilEmpresa = document.querySelector('#perfilEmpresa')
+const menu2 = document.querySelector('#menu2')
+const perfilEmpresa = document.querySelector('#perfilEmpresa')
 
-var menu3 = document.querySelector('#menu3')
-var histRelatorio = document.querySelector('#histRelatorio')
+const menu3 = document.querySelector('#menu3')
+const histRelatorio = document.querySelector('#histRelatorio')
 
-var menu4 = document.querySelector('#menu4')
-var newrelatorio = document.querySelector('#newrelatorio')
+const menu4 = document.querySelector('#menu4')
+const newrelatorio = document.querySelector('#newrelatorio')
 
-var menu5 = document.querySelector('#menu5')
-var agendar = document.querySelector('#agendar')
+const menu5 = document.querySelector('#menu5')
+const agendar = document.querySelector('#agendar')
 
-var selecionada = dadosDoPerfil
+let selecionada = dadosDoPerfil
 
-menu1.addEventListener('click', ()=> mudarPaginaDinamica(dadosDoPerfil))
-                         
-menu2.addEventListener('click', ()=> mudarPaginaDinamica(perfilEmpresa))
+menu1.addEventListener('click', () => mudarPaginaDinamica(dadosDoPerfil))
 
-menu3.addEventListener('click', ()=> mudarPaginaDinamica(histRelatorio))
+menu2.addEventListener('click', () => mudarPaginaDinamica(perfilEmpresa))
 
-menu4.addEventListener('click', ()=> mudarPaginaDinamica(newrelatorio))
+menu3.addEventListener('click', () => mudarPaginaDinamica(histRelatorio))
 
-menu5.addEventListener('click', ()=> mudarPaginaDinamica(agendar))
+menu4.addEventListener('click', () => mudarPaginaDinamica(newrelatorio))
+
+menu5.addEventListener('click', () => mudarPaginaDinamica(agendar))
 
 const mudarPaginaDinamica = (id) => {
     selecionada.style.display = "none"
