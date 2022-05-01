@@ -13,6 +13,8 @@ const newrelatorio = document.querySelector('#newrelatorio')
 const menu5 = document.querySelector('#menu5')
 const agendar = document.querySelector('#agendar')
 
+const btn = document.querySelector('#btn')
+
 let selecionada = dadosDoPerfil
 
 menu1.addEventListener('click', () => mudarPaginaDinamica(dadosDoPerfil))
