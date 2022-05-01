@@ -52,7 +52,7 @@ button{
 
 .sidebar{
     width: 344px;
-    height: 1444px;
+    height: auto;
     background:#F3F9F4 ;
 }
 
@@ -122,10 +122,25 @@ button{
     cursor: pointer;
 }
 
+.caixa1{
+    border: 1px solid #E9E9E9;
+    border-radius: 20px;
+    width: 404px;
+    height: 190px;
+}
+.caixa_tema{
+    background-color:#F3F9F4 ;
+    border: 1px solid #F3F9F4;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    width: 404px;
+    height: 46px;
+}
 .btn{
     display: flex;
     justify-content: flex-end;
     padding: 78px 0;
+   
 }
 
 .btn_prox{
@@ -137,6 +152,7 @@ button{
     padding: 16px,40px,16px,40px;
     border: none;
     box-shadow: 4px, 4px, 8px, rgba(4px, 4px, 8px, rgba(0,0,0,0.2));
+    cursor: pointer;
 }
 
 .btn_voltar{
@@ -148,4 +164,5 @@ button{
     padding: 16px,40px,16px,40px;
     border: 1px solid #4E9453;
     box-shadow: 4px, 4px, 8px, rgba(4px, 4px, 8px, rgba(0,0,0,0.2));
+    cursor: pointer;
 }
