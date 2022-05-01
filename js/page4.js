@@ -13,7 +13,8 @@ const newrelatorio = document.querySelector('#newrelatorio')
 const menu5 = document.querySelector('#menu5')
 const agendar = document.querySelector('#agendar')
 
-const btn = document.querySelector('#btn')
+const btn_back = document.querySelector('#btn_back')
+const btn_next = document.querySelector('#btn_next')
 
 let selecionada = dadosDoPerfil
 
@@ -26,6 +27,8 @@ menu3.addEventListener('click', () => mudarPaginaDinamica(histRelatorio))
 menu4.addEventListener('click', () => mudarPaginaDinamica(newrelatorio))
 
 menu5.addEventListener('click', () => mudarPaginaDinamica(agendar))
+
+
 
 const mudarPaginaDinamica = (id) => {
     selecionada.style.display = "none"
