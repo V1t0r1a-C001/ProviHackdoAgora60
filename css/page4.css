@@ -34,6 +34,14 @@ button{
     margin-right: 60px;
  }
 
+ input{
+     width:385px;
+     height:38px;
+     border: 1px solid #EDEDE2;
+     border-radius: 10px;
+
+ }
+
 .avatar {
     width: 30px;
     height: 30px;
@@ -80,9 +88,23 @@ button{
     color: #366636;
 }
 
+.subtitle{
+    color:#4E9453;
+}
+
 .caixa2{
     display: flex;
     justify-content: space-between;
+}
+
+.dados{
+    color:#4E9453;
+}
+
+.atributos{
+    display: flex;
+    justify-content: space-around;
+    color: #2E2E2E ;
 }
 
 #menu1:hover, #menu2:hover, #menu3:hover, #menu4:hover, #menu5:hover, .nav_list:hover{
@@ -98,4 +120,32 @@ button{
     width: 60%;
     padding: 8px 0;
     cursor: pointer;
+}
+
+.btn{
+    display: flex;
+    justify-content: flex-end;
+    padding: 78px 0;
+}
+
+.btn_prox{
+    width: 132px;
+    height: 49.44px;
+    color: #F3F9F4;
+    background-color:#4E9453;
+    border-radius: 50px;
+    padding: 16px,40px,16px,40px;
+    border: none;
+    box-shadow: 4px, 4px, 8px, rgba(4px, 4px, 8px, rgba(0,0,0,0.2));
+}
+
+.btn_voltar{
+    width: 132px;
+    height: 49.44px;
+    color:#4E9453;
+    background-color:#F3F9F4;
+    border-radius: 50px;
+    padding: 16px,40px,16px,40px;
+    border: 1px solid #4E9453;
+    box-shadow: 4px, 4px, 8px, rgba(4px, 4px, 8px, rgba(0,0,0,0.2));
 }
