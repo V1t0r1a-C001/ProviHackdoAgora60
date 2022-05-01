@@ -2,7 +2,7 @@
     display:flex;
     justify-content:space-between;
     height: 62px;
-    background:#F3F9F4 ;
+    background:#F3F9F4;
 }
 
 .nome{
@@ -128,7 +128,6 @@ button{
 
 .box_tema{
     display: table-cell;
-
 }
 
 .caixa1{
@@ -178,4 +177,3 @@ button{
     font: 21px bold;
     font-family: 'Poppins';
 }
-
