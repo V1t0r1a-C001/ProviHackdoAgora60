@@ -88,4 +88,12 @@ button{
 #menu1:hover, #menu2:hover, #menu3:hover, #menu4:hover, #menu5:hover, .nav_list:hover{
     color: #366636;
     background-color: #FBFBFB;
+
+}
+.nav_list{
+    display: flex;
+    text-align: start;
+    border-radius: 5px;
+    margin-left: 4%;
+    width: 60%;
 }
