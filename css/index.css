@@ -1,5 +1,4 @@
 .header-site{
-    background-image: url(../img/empresasustenavel.png);
     background-position: center top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -33,6 +32,19 @@ text-align: left;
 
 }
 
+.sobre{
+  width: 1216px;
+  height: 564px;
+  border-radius: 30px;
+  background-color: #C4C4C4;
+}
+
+.caixa_sobre{
+  display: flex;
+  justify-items: center;
+  padding-left: 310px;
+}
+
 .lead{
   color: #606078;
 }
@@ -45,7 +57,6 @@ text-align: left;
 }
 
 .img-site{
-    background-image: url(../img/o-que-e-sustentabilidade-ambiental.jpg);
     background-position: center top;
     background-repeat: no-repeat;
     background-size: cover;
