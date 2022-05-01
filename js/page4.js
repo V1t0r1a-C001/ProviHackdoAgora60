@@ -13,9 +13,11 @@ const newrelatorio = document.querySelector('#newrelatorio')
 const menu5 = document.querySelector('#menu5')
 const agendar = document.querySelector('#agendar')
 
-const btn = document.querySelector('#btn')
+const btn_next = document.querySelector('#btn_next')
+const btn_back = document.getElementById("btn_back")
 
 let selecionada = dadosDoPerfil
+
 
 menu1.addEventListener('click', () => mudarPaginaDinamica(dadosDoPerfil))
 
@@ -27,8 +29,39 @@ menu4.addEventListener('click', () => mudarPaginaDinamica(newrelatorio))
 
 menu5.addEventListener('click', () => mudarPaginaDinamica(agendar))
 
+btn_next.addEventListener('click', () => proxima())
+btn_back.addEventListener('click', () => anterior())
+
+
 const mudarPaginaDinamica = (id) => {
     selecionada.style.display = "none"
     id.style.display = "flex"
     selecionada = id
+}
+
+const proxima = () => {
+
+    if(selecionada == dadosDoPerfil)
+        mudarPaginaDinamica(perfilEmpresa)
+    else if(selecionada == perfilEmpresa)
+        mudarPaginaDinamica(histRelatorio)
+    else if(selecionada == histRelatorio)
+        mudarPaginaDinamica(newrelatorio)
+    else if(selecionada == newrelatorio)
+        mudarPaginaDinamica(agendar)
+
+}
+
+
+const anterior = () => {
+
+    if (selecionada == agendar)
+        mudarPaginaDinamica(newrelatorio)
+    else if (selecionada == newrelatorio)
+        mudarPaginaDinamica(histRelatorio)
+    else if (selecionada == histRelatorio)
+        mudarPaginaDinamica(perfilEmpresa)
+    else if (selecionada == perfilEmpresa)
+        mudarPaginaDinamica(dadosDoPerfil)
+
 }
