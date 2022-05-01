@@ -408,6 +408,9 @@ input[type=text]:placeholder, input[type=email]:placeholder {
 #icon {
   width:30%;
 }
+#razoes{
+  color: #0d0d0d;
+}
 
 /*tira barra de Rolagem*/
 ::-webkit-scrollbar {
