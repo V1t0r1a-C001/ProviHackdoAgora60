@@ -27,7 +27,7 @@ body {
 
 a{
     text-decoration: none;
-    color: #366636;
+    color: #4E9453;
 }
 
 button{
@@ -85,3 +85,7 @@ button{
     justify-content: space-between;
 }
 
+#menu1:hover, #menu2:hover, #menu3:hover, #menu4:hover, #menu5:hover, .nav_list:hover{
+    color: #366636;
+    background-color: #FBFBFB;
+}
