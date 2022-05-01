@@ -25,7 +25,6 @@ menu4.addEventListener('click', ()=> mudarPaginaDinamica(newrelatorio))
 
 menu5.addEventListener('click', ()=> mudarPaginaDinamica(agendar))
 
-
 const mudarPaginaDinamica = (id) => {
     selecionada.style.display = "none"
     id.style.display = "flex"

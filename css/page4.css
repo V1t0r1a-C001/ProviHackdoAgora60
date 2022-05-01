@@ -15,9 +15,23 @@
     list-style: none;
 }
 
+ul{
+    display: flex;
+    justify-content:flex-start;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #FBFBFB;
+  }
+
 a{
     text-decoration: none;
 }
+
+button{
+    margin-right: 60px;
+ }
 
 .avatar {
     width: 30px;
@@ -33,15 +47,6 @@ a{
     background:#F3F9F4 ;
 }
 
-body {
-    font-family: "Poppins", sans-serif;
-    background-color: #FBFBFB;
-  }
-
-ul{
-    display: flex;
-    justify-content:flex-start;
-}
 
 .pontos{
     display:flex;
@@ -49,10 +54,6 @@ ul{
     flex-wrap: wrap-reverse;
     align-items: flex-start;
     margin-right: 100px;
-}
-
-button{
-   margin-right: 60px;
 }
 
 .toggler{
@@ -63,8 +64,6 @@ button{
 .links{
     text-decoration: none;
 }
-
-
 
 .page{
     display: flex;
